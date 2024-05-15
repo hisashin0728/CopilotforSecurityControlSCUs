@@ -1,7 +1,9 @@
 # CopilotforSecurityControlSCUs
 > This repository provides to Create/Update SCUs by your shcueduled time and Delete Copilot for Security. 
 
-このレポジトリは、ロジックアプリを用いて Microsoft Copilot for Security のリソースを作成したり、セキュリティ コンピューティング ユニット(SCU) を時間帯で調整することを想定しています。
+このレポジトリは、ロジックアプリを用いて Microsoft Copilot for Security のリソースを作成したり、セキュリティ コンピューティング ユニット(SCU) を時間帯で調整することを想定しています。<BR>
+時間帯で増減させることで、実運用時の最適化や、PoC (Proof Of Concept) の用途に活用することを想定しています。
+![image](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/326a9c6d-330e-4f80-803c-05988da1fd82)
 
 # How to Deploy
 > Details how to deploy logicapps by ARM templates
