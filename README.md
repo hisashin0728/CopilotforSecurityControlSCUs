@@ -72,9 +72,17 @@ ARM テンプレートの導入後、以下をチェックして下さい。<br>
   - ``6`` は土曜日
 ![image](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/da098254-0662-4234-a4cb-6ce81cebcdcd)
 
-# Deploy Sample
-- 平日 10:00 - 16:55、土日除く構成（ SCU 1 Unit で \96,000-/Month の予算枠を想定)
+# Customize Your Environment
+> Tune your suitable Copilot for Secuirity environment!
+
+- SCU 調整モデル / 平日 10:00 - 16:55 は SCU 2 Unit、土日/深夜は SCU 1 Unit で構成する
+  - CfSDeployUpdate.json (Parameter で SCU = 2)
+    - 10:00 起動 / 土日除く
+  - CfSDeployUpdate.json (Parameter で SCU = 1)
+    - 16:55 起動
+
+- 平日日中帯だけ利用するモデル / 平日 10:00 - 16:55、土日除く構成（ SCU 1 Unit で \96,000-/Month の予算枠を想定)
   - CfSDeployUpdate.json
     - 10:00 起動 / 土日除く 
   - CfSDeployUpdate.json
-    - 16:55 起動
+    - 16:55 起動（削除）
