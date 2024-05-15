@@ -16,6 +16,12 @@
 
 展開については、以下の DeployToAzure ボタンをクリックしてください。
 
+- CfSDeployUpdate.json
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FCopilotforSecurityControlSCUs%2Fmain%2FCfSDeployUpdate.json)
+<p>
+  - CfSDeployDelete.json
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FCopilotforSecurityControlSCUs%2Fmain%2FCfSDeployDelete.json)
+
 # Parameters
 > Details parameter in ARM Templates
 
