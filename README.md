@@ -10,19 +10,14 @@
 - CfSDeployUpdate.json
   - Copilot for Security を作成・および SCU 値を増減させるために用いるテンプレートです。
   - 初期値では土日を除いた ``10:00 JST`` に起動する設定になっています。詳細や変更方法については後述を参照してください。
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FCopilotforSecurityControlSCUs%2Fmain%2FCfSDeployUpdate.json)
+
 - CfSDeployDelete.json
   - Copilot for Security のリソースを削除するために用いるテンプレートです。
   - 初期値では毎日 ``16:55 JST`` に起動する設定になっています。詳細や変更方法については後述を参照してください。
 
-展開については、以下の DeployToAzure ボタンをクリックしてください。
-
-- CfSDeployUpdate.json のデプロイ
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FCopilotforSecurityControlSCUs%2Fmain%2FCfSDeployUpdate.json)
-<p>
-- CfSDeployDelete.json のデプロイ
-
-  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FCopilotforSecurityControlSCUs%2Fmain%2FCfSDeployDelete.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FCopilotforSecurityControlSCUs%2Fmain%2FCfSDeployDelete.json)
 
 # Parameters
 > Details parameter in ARM Templates
