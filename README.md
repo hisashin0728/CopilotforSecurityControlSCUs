@@ -27,7 +27,7 @@ ARM テンプレートでは、導入に際してパラメータを設定する�
 | Parameter | 説明 |
 | ---- | ---- |
 | ``PlaybookName`` | ロジックアプリの名称です。ご自分の環境に合わせて変更可能です。 |
-| ``DeployCfSTargetResourceGroup`` | **Microsoft Copilot for Security をデプロイする先の対象リソースグループで別途作成する必要があります。**<BR>※ロジックアプリはこのリソースグループに対して CfS を作成・削除します。**リソースグループは事前に作成しておいてください** |
+| ``DeployCfSTargetResourceGroup`` | **Microsoft Copilot for Security をデプロイする先の対象リソースグループで別途作成する必要があります。** <br>※ロジックアプリはこのリソースグループに対して CfS を作成・削除します。<BR> **>※リソースグループは事前に作成しておいてください** |
 | ``Geo`` | Copilot for Security のデプロイ時の Region 指定です。本テンプレートでは ``eastus`` / ``US`` で設定されています |
 | ``capacityName`` | Copilot for Security デプロイ時の名前です。変更する際は 2 つのロジックアプリの本名称が同一のものであるように設定して下さい |
 | ``numberofSCUs`` | 追加・アップデート・削除する際の SCU 数です。<BR>※型の warning が表示されますが、仕様のため無視してください |
