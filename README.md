@@ -53,7 +53,7 @@ ARM テンプレートの導入後、以下をチェックして下さい。<br>
   - ``numberOfSCUs``
 <img width="674" alt="image" src="https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/407dc46d-31ce-424f-ad1a-0b505b351e6b">
 
-- 本ロジックアプリは Managed ID を用いて ``Co-Owner`` 権限が必要になりますので、権限を付与して下さい
+- 本ロジックアプリは Managed ID を用いて ``Co-Owner`` 権限が必要になりますので、権限を付与して下さい。
   - ロジックアプリが対象のリソースグループに対して Copilot for Security のデプロイ/削除を行うため、権限付与が必要です。
   - 左側「ID」より「Azure ロールの割り当て」を設定し、「共同所有者 (Co-Owner)」ロールの付与を行って下さい。
 
