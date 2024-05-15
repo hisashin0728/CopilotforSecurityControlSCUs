@@ -42,6 +42,7 @@ ARM テンプレートの導入後、以下をチェックして下さい。<br>
 
 ロジックアプリデザイナーを開き、エラーが無いことを確認して下さい。<br>
 ![image](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/367cd303-bce9-4a72-ac6e-763d00f55c8f)
+![image](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/060f3bfb-9370-4f58-8bbc-104004010d27)
 
 - ロジックアプリ上部メニューの「パラメーター」を開いて、ロジックアプリ内で用いるパラメーター値がセットされているかどうかご確認下さい。
   - ``DeployCfSSubscriptionId``
