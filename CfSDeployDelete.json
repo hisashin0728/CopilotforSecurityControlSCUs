@@ -17,17 +17,9 @@
             "defaultValue": "rg-CfS-JE",
             "type": "string"
         },
-        "Geo": {
-            "defaultValue": "US",
-            "type": "string"
-        },
         "capacityName": {
             "defaultValue": "CfS-yourname",
             "type": "string"
-        },
-        "numberofSCUs": {
-            "defaultValue": "1",
-            "type": "int"
         }
     },
     "variables": {
@@ -68,21 +60,9 @@
                             "defaultValue": {},
                             "type": "Object"
                         },
-                        "Geo": {
-                            "defaultValue": "[parameters('Geo')]",
-                            "type": "String"
-                        },
                         "capacityName": {
                             "defaultValue": "[parameters('capacityName')]",
                             "type": "String"
-                        },
-                        "crossGeoCompute": {
-                            "defaultValue": "Allowed",
-                            "type": "String"
-                        },
-                        "numberOfSCUs": {
-                            "defaultValue": "[parameters('numberOfSCUs')]",
-                            "type": "Int"
                         }
                     },
                     "triggers": {
