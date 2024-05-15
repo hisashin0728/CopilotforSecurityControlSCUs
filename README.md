@@ -1,7 +1,7 @@
 # CopilotforSecurityControlSCUs
 > This repository provides to Create/Update SCUs by your shcueduled time and Delete Copilot for Security. 
 
-[Japanese Version is Here](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/blob/main/READMEJP.md)<BR>
+[**日本語 Readme はこちら**](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/blob/main/READMEJP.md)<BR>
 
 This repository is intended to use Logic Apps to create Microsoft Copilot for Security resources or adjust Security Compute Units (SCUs) based on time slots. It is intended to be used to optimize actual operations or for Proof of Concept (PoC) purposes by adjusting the SCUs based on time slots.<br>
 ![image](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/326a9c6d-330e-4f80-803c-05988da1fd82)
