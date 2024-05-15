@@ -5,6 +5,13 @@
 時間帯で増減させることで、実運用時の最適化や、PoC (Proof Of Concept) の用途に活用することを想定しています。
 ![image](https://github.com/hisashin0728/CopilotforSecurityControlSCUs/assets/55295601/326a9c6d-330e-4f80-803c-05988da1fd82)
 
+```
+PoC 用途に時間帯で Copilot for Security のリソースを削除することも可能ですが、様々なデメリットが生じるため、あくまでテスト用途での使い方に留めるようにお願いします。
+リソースを削除すると以下のような制限があります。
+- その期間中は Standalone ポータルと、Copilot for Security を活用するリソース (Defender XDR など) からアクセス不可になります
+- 作成したカスタムプラグイン、カスタムプロンプトブックが消去されてしまうため、再活用することが不可となります
+```
+
 # How to Deploy
 > Details how to deploy logicapps by ARM templates
 
