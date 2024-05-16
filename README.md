@@ -9,7 +9,6 @@ This repository is intended to use Logic Apps to create Microsoft Copilot for Se
 ---
 Although it is possible to delete Copilot for Security resources based on time slots for PoC purposes, please limit it to testing purposes only, as it may cause various disadvantages. Deleting resources has the following limitations:
 - During that time, accessing from the standalone portal and resources that utilize Copilot for Security (such as Defender XDR) will fail due to insufficient capacity.
-- Custom plugins and custom prompt books created will be erased, making it impossible to reuse them.
 ---
 
 # How to Deploy
