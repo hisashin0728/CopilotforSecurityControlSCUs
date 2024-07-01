@@ -14,7 +14,7 @@
             "type": "string"
         },
         "DeployCfSTargetResourceGroup": {
-            "defaultValue": "rg-CfS-JE",
+            "defaultValue": "rg-yourname",
             "type": "string"
         },
         "Geo": {
