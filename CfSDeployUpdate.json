@@ -172,8 +172,8 @@
                                 "variables": [
                                     {
                                         "name": "DayOftheWeek",
-                                        "type": "string",
-                                        "value": "@{dayOfWeek(convertFromUtc(utcNow(),'Tokyo Standard Time'))}"
+                                        "type": "integer",
+                                        "value": "@int(dayOfWeek(convertFromUtc(utcNow(),'Tokyo Standard Time')))"
                                     }
                                 ]
                             }
